@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Emotion10 from './emo10';
+import Emotion11 from './emo11';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Emotion10 />
+      <Emotion11 />
     </div>
   );
 }
