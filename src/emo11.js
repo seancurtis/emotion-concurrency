@@ -1,8 +1,20 @@
-/** @jsxImportSource @emotion/core */
-import { jsx } from '@emotion/react';
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { jsx, css } from "@emotion/react";
+
+const styles = css`
+  background: green;
+  border-radius: 3px;
+  padding: 0.5em;
+  margin: 10px;
+`;
+
+console.log('styles',styles);
 
 const E11 = () => (
-  <div css={{ background: 'blue', color: 'white', borderRadius: 3, padding: '0.5em', margin: 10 }}>
+  <div
+    css={styles}
+  >
     Emotion 11 component
   </div>
 );
