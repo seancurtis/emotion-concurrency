@@ -11,10 +11,8 @@ const options = [
 ];
 
 const styles = css`
-  background: green;
-  border-radius: 3px;
-  padding: 0.5em;
-  margin: 10px;
+  background: blue;
+  padding: 1em;
   color: white;
 `;
 

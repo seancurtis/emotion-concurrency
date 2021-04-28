@@ -19,13 +19,12 @@ const E10 = () => (
     <div
       css={css`
         background: red;
-        border-radius: 3px;
-        padding: 0.5em;
-        margin: 10px;
+        padding: 1em;
       `}
     >
       <Headline>Heyyy</Headline>
       <p css={(theme) => ({ color: theme.color })}>Emotion 10 component</p>
+      <p css={(theme) => ({ color: theme.color })}>This component should be red, notice how all the styles are removed once the Emotion 11 component is loaded in.</p>
     </div>
   </ThemeProvider>
 );

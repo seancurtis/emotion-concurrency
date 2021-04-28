@@ -4,9 +4,10 @@ import styled from "styled-components";
 
 import Emotion10 from "./emo10";
 
-const Div = styled.div`
-  background: #ffdd11;
-  min-height: 200px;
+const H1 = styled.div`
+  background: green;
+  padding: 1em;
+  margin: 1em;
 `;
 
 async function loadEmotion11() {
@@ -14,7 +15,7 @@ async function loadEmotion11() {
 }
 
 function App() {
-  const [Emotion11, setComp] = useState('p');
+  const [Emotion11, setComp] = useState('Loading Emotion 11 component');
 
   useEffect(
     () =>
@@ -28,11 +29,18 @@ function App() {
   console.log(Emotion11);
   return (
     <>
-      <Div>
-        <Emotion10 />
-        {Emotion11}
-        test
-      </Div>
+      <div style={{ padding: '1em' }}>
+        <H1>This is styled-components</H1>
+        <div style={{ display: 'flex' }}>
+          <div style={{ flex: '1 0 50%', padding: '1em' }}>
+            <Emotion10 />
+          </div>
+          <div style={{ flex: '1 0 50%', padding: '1em' }}>
+            {Emotion11}
+          </div>
+        </div>
+        <style>{`* { box-sizing: border-box; `}</style>
+      </div>
     </>
   );
 }
