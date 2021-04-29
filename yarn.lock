@@ -1239,7 +1239,7 @@
   resolved "https://packages.atlassian.com/api/npm/npm-remote/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha1-8JULuhiBlRLUL3GX5WxRiqSRzxg=
 
-"@emotion/cache@^10.0.27":
+"@emotion/cache@^10", "@emotion/cache@^10.0.27":
   version "10.0.29"
   resolved "https://packages.atlassian.com/api/npm/npm-remote/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
   integrity sha1-h+fmT0EsBgEC1Yn+fG3AQub50eA=
